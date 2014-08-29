@@ -6,6 +6,7 @@ subtitle: I call myself an analyst because it's suitably nondescript and affords
 
 <h2>Latest Blog Posts</h2>
 {% for post in site.posts %}
+  <h3>{{ site.url }}</h3>
   <div class="post">
     <h3>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></h3>
   </div>
